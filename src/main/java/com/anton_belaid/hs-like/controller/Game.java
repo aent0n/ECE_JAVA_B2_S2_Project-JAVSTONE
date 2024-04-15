@@ -31,7 +31,7 @@ public class Game {
         LoggerUtils.log("[INFO] " + champion1.getPlayerName() + " (player 1) play as: " + champion1.getName());
         int turnCount = 0;
         LoggerUtils.log("[INFO] " + champion2.getPlayerName() + " (player 2) play as: " + champion2.getName());
-        while (!isGameOver() && turnCount < 24) {
+        while (!isGameOver() && turnCount < 23) {
             System.out.print("\033[H\033[2J");
             System.out.flush();
             board.display(turnCount);
@@ -106,6 +106,11 @@ public class Game {
             System.out.println(target.getName() + " has " + target.getHealthPoints() + " HP left !");
         }
         LoggerUtils.log("");
+        try {
+            Thread.sleep(3500);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
 
         LoggerUtils.log("====== MONSTER ATTACK PHASE ======");
