@@ -4,6 +4,10 @@
 A repository designated to the ECE B2 S2 Java "JAVSTONE" project, a Java project aiming to design a HearthStone-like game. With Belaid IOUDJAOUDENE.
 
 
+## Getting started
+To make the project work, you'll need to run ``mvn package``, ``mvn compile``, and ``mvn exec:java``, supposing you have Maven installed. Dependencies are all set up in the ``pom.xml`` file.
+
+
 ## Ressources used
 Here is a non-exhaustive list of the tools/ressources used in the conception
 
@@ -115,5 +119,10 @@ The project was built using Maven, with the following structure
 
 ```
 
-## Getting started
-To make the project work, you'll need to run ``mvn package``, ``mvn compile``, and ``mvn exec:java``, supposing you have Maven installed. Dependencies are all set up in the ``pom.xml`` file.
+## Gallery
+Here are the WIP designs who will be implemented in a future version, with the help of JavaFX.
+![Group 369COllect](https://github.com/aent0n/ECE_JAVA_B2_S2_Project-JAVSTONE/assets/116871473/7d1906e9-0bb1-43f7-8805-69bb29338b2a)
+![Group 365](https://github.com/aent0n/ECE_JAVA_B2_S2_Project-JAVSTONE/assets/116871473/d415b241-44b3-47c5-a1e0-9684ec32b7b6)
+![Group 38T3](https://github.com/aent0n/ECE_JAVA_B2_S2_Project-JAVSTONE/assets/116871473/6b91bd7a-d394-4bea-9c59-5550e78a2780)
+
+
