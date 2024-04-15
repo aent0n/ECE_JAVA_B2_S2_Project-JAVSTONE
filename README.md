@@ -114,3 +114,6 @@ The project was built using Maven, with the following structure
                         |       GameTest.java
 
 ```
+
+## Getting started
+To make the project work, you'll need to run ``mvn package``, ``mvn compile``, and ``mvn exec:java``, supposing you have Maven installed. Dependencies are all set up in the ``pom.xml`` file.
